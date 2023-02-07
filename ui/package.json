@@ -5,6 +5,7 @@
   "files": [
     "dist"
   ],
+  "homepage": "./",
   "main": "./dist/feast-ui.cjs",
   "module": "./dist/feast-ui.module.js",
   "peerDependencies": {
