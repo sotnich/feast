@@ -17,7 +17,7 @@ const FeastUI = ({ reactQueryClient, feastUIConfigs }: FeastUIProps) => {
   const queryClient = reactQueryClient || defaultQueryClient;
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/feastui'>
       <QueryClientProvider client={queryClient}>
         <QueryParamProvider
           ReactRouterRoute={RouteAdapter as unknown as React.FunctionComponent}

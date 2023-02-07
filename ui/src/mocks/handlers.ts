@@ -5,7 +5,7 @@ import path from "path";
 const registry = readFileSync(path.resolve(__dirname, "../../public/registry.db"));
 
 const projectsListWithDefaultProject = rest.get(
-  "/projects-list.json",
+  "/feastui/projects-list.json",
   (req, res, ctx) => {
     return res(
       ctx.status(200),

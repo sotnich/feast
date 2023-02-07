@@ -41,7 +41,7 @@ interface FeastUIConfigs {
 }
 
 const defaultProjectListPromise = () => {
-  return fetch("/projects-list.json", {
+  return fetch("/feastui/projects-list.json", {
     headers: {
       "Content-Type": "application/json",
     },
