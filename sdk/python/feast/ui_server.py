@@ -62,7 +62,7 @@ def get_app(
                     "name": "Project",
                     "description": "Test project",
                     "id": project_id,
-                    "registryPath": "/registry",
+                    "registryPath": "/feastui/registry",
                 }
             ]
         }
